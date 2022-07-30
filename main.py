@@ -18,5 +18,7 @@ def guess_number(n):
         elif user_prediction > number_random:
             print('Try again . This number is very big')
     
-    
+    print(f'!Congrulations! Guessed the number {number_random} correctly')
+
+guess_number(10)
 
